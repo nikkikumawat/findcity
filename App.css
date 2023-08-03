@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dropmenu {
+    background: #abbaab;
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+    background: linear-gradient(to right, #ffffff, #abbaab);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-color: white;
+    height: 65%;
+}
+
+.menu select{
+    margin: 10px;
+}
+
+.menu option {
+    background-color: black;
+    color: white;
+}
+
+
